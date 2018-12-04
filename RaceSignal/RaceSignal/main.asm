@@ -9,10 +9,11 @@
 ; Replace with your application code
 
 ;Physical connection
-;PD1 to button to ground (button)
+;PD0 to button to ground (button)
 ;PB0 to red led to 220 ohams to ground (Red)
 ;PA0 to yellow led to 220 ohams to ground (Yellow)
 ;PC0 to green led to 220 ohams to ground (Green)
+;Grd to active buzzer to PC0
 .macro delay
 	ldi r20, 100
 delay_loop_1:
